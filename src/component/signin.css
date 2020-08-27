@@ -1,0 +1,37 @@
+.signinform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width:34rem;
+    padding: 1rem;
+    border: .1rem black solid;
+    border-radius: .5rem;
+    list-style-type: none;
+
+}
+.form-container li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+input{
+    padding: 1rem;
+    border:.1rem grey solid;
+    border-radius: .5rem;
+    font-weight:60;
+    font-family: sans-serif;
+
+}
+.signinbtn{
+    background-color: chartreuse;
+    text-align: center;
+    height: 40px;
+    pointer-events: visible;
+    border-radius: 5px;
+}

@@ -1,0 +1,11 @@
+
+  .header{
+    grid-area: header;
+  color: aliceblue;
+  background-color: chartreuse;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  width:50px
+  }

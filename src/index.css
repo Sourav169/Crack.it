@@ -1,0 +1,69 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  body{
+    font:16px Helvetica;
+    height: 100vh;
+    margin: 0;
+  }
+  .container{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;
+  }
+  #root{
+    height: 100%;
+  }
+  .header{
+    grid-area: header;
+    color: aliceblue;
+    background-color:rgb(39, 5, 5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  .name a{
+    color: cornsilk;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .name a:hover{
+    color: darkgreen;
+  }
+
+  
+  .MY-COURSES a{
+    color: cornsilk;
+    text-decoration: none;
+    padding: 1rem;
+  
+  }
+  .MY-COURSES a:hover{
+    color: darkgreen;
+  }
+  .main{
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    
+  }
+  .footer{
+    grid-area: footer;
+    color: aliceblue;
+    background-color: rgb(39, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

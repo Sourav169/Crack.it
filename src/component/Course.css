@@ -1,0 +1,28 @@
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    flex-wrap: wrap;
+    background-color:
+gray;   
+}
+.product-image{
+    flex:2 1 900px
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    widows: 100%;
+}
+
+
+.product-info{
+    flex:1 1 20rem;
+
+}
+
+
+
+
+

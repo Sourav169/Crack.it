@@ -1,0 +1,33 @@
+.container1 img{
+    width: 100%;
+  height: auto;
+}
+.container1 .btn{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+   
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .container1 h2{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   
+    font-size: 16px;
+   
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
